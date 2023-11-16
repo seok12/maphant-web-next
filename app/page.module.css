@@ -1,0 +1,78 @@
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  gap: 5rem;
+}
+.appImg {
+  display: inline;
+  text-align: left;
+}
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.img {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.Input {
+  width: 16rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid #ababab;
+  padding-left: 0.5rem;
+}
+.button {
+  width: 16.8rem;
+  height: 2rem;
+  background-color: rgb(135, 196, 242);
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+}
+.button:hover {
+  background-color: #5299eb;
+}
+
+.text {
+  width: 16rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup {
+  text-align: right;
+  color: rgb(135, 196, 242);
+  text-decoration: none;
+}
+.serchId {
+  color: rgb(135, 196, 242);
+}
+.link {
+  margin: 0;
+  text-decoration: none;
+  color: rgb(135, 196, 242);
+}
+.link:hover {
+  color: #5299eb;
+}
+
+@media screen and (max-width: 1000px) {
+  /* 타블렛 가로 */
+  .appImg {
+    display: none;
+  }
+}

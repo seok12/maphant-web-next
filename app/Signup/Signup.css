@@ -1,0 +1,78 @@
+.SignupMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignupForm {
+  margin-top: 5%;
+}
+
+.SignupTitle {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 17px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inputField {
+  text-align: left;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: block;
+  font-size: 12px;
+  padding-left: 3%;
+}
+.container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btndiv {
+  text-align: center;
+}
+
+.Btn {
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  background-color: #88c5fa;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-bottom: 10%;
+}
+.Btn:hover{
+  background-color: #5299eb;
+}
+
+div.PhoneNotextbox input {
+  text-align: left;
+  opacity: 0.2;
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+nav.Signpadding {
+  padding-left: 27%;
+  padding-top: 10%;
+  padding-right: 20%;
+}

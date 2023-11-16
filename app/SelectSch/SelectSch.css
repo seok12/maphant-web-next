@@ -1,0 +1,55 @@
+div.Title input {
+  text-align: left;
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+div.Major input {
+  text-align: left;
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+div.imgbox img {
+  width: 70px;
+  height: 70px;
+  margin-top: 200px;
+}
+
+div.Title label {
+  font-weight: bold;
+}
+
+div.School label {
+  font-weight: bold;
+}
+
+div.Major label {
+  font-weight: bold;
+}
+
+nav.margin {
+  padding-left: 40%;
+  padding-top: 5%;
+}
+
+select {
+  border-radius: 10px;
+  width: 355px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.SelectBtn {
+  text-align: center;
+  width: 360px;
+  height: 50px;
+  background-color: rgb(95, 178, 242);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-bottom: 10%;
+}

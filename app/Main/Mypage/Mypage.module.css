@@ -1,0 +1,192 @@
+.container {
+  padding: 20px;
+}
+
+/* 각 섹션 스타일링 */
+.userInfo,
+.accountSettings,
+.communitySettings,
+.etc {
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 110px;
+  padding-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-left: -120px;
+}
+
+.profileSection {
+  display: flex;
+}
+
+.profileImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.list,
+.userInfomation {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 각 label 스타일링 */
+.etc label,
+.list label {
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: text-decoration 0.2s ease;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.etc label:hover,
+.list label:hover {
+  text-decoration: underline;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 모달 내부 스타일 */
+.modal {
+  background-color: white;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.modalcg {
+  background-color: white;
+  padding: 50px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.mydata1 {
+  padding: 10px;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.mydata {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 50%;
+}
+.mydata3 {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.mydatafix {
+  background-color: rgb(95, 178, 242);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+
+.mydatafix:hover {
+  background-color: #0056b3;
+}
+
+.closebutton {
+  background-color: rgb(95, 178, 242);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 30%;
+}
+.closebutton2 {
+  background-color: rgb(95, 178, 242);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+.closebutton:hover {
+  background-color: #0056b3;
+}
+
+.closebutton2:hover {
+  background-color: #0056b3;
+}
+
+.showPasswordButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 18px;
+  margin-left: -40px;
+  margin-top: 6px;
+}
+
+.currentCategory {
+  margin-bottom: 20px;
+}
+
+.currentCategory p {
+  margin-bottom: 5px;
+}
+
+.Deletelist,
+.addlist {
+  margin-top: 20px;
+}
+
+.Deletelist b,
+.addlist b {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.Deletelist .inputBox,
+.addlist .inputBox {
+  margin-bottom: 10px;
+}
+
+.formBox {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+
+.llist {
+  padding-left: 3px;
+}
+
+.Dlist {
+  margin-right: 20px;
+}

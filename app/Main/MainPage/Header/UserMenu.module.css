@@ -1,0 +1,41 @@
+.userMenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.MailBtn, .NoticeBtn{
+  background: none;
+  border-radius: 10px;
+  border: 0;
+}
+
+.mailIcon, .noticeIcon{
+  color: white;
+}
+.mailIcon:hover, .noticeIcon:hover{
+  cursor: pointer;
+  color: black;
+}
+
+
+
+
+.userBtn {
+  background-color: white;
+  border: 0;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 0.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.userBtn:hover {
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
+}
